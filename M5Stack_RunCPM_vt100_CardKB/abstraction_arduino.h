@@ -2,7 +2,7 @@
 #define ABSTRACT_H
 #include <Wire.h>
 
-//#define USE_FACES
+#define USE_FACES        // Enable M5Stack Faces QWERTY Panel
 
 #ifdef USE_FACES
 #define CARDKB_ADDR 0x08 // M5Stack Faces QWERTY Panel
